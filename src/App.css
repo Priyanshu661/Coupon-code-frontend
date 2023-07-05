@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+
+
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.result {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.error {
+  color: red;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: blue;
   color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  margin-bottom: 10px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+.coupon-codes li{
+
+
+  
+}
+
+.del-coupon{
+  margin-left: 20px;
+  background-color: red;
+  cursor: pointer;
 }
